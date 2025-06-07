@@ -73,7 +73,7 @@ export const Navbar = () => {
                     <div className="relative">
                         {isLogged ? (
                             <>
-                                <FaUser />
+                                <FaUser className='cursor-pointer'/>
                                 <button
                                     onClick={LogedHandler}
                                     className="absolute -top-2 -right-2 bg-red-500 text-white text-[6px] w-5 h-5 flex items-center justify-center rounded-full"

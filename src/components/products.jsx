@@ -77,7 +77,7 @@ export const Home=()=>{
                 <li onClick={()=>All_CateGories("men's clothing")} className='border border-gary-200 pl-4 pr-4 text-gray-900 rounded p-1 cursor-pointer hover:bg-gray-900 hover:text-white'>men's clothing</li>
             </ul>
           
-            <div  className="grid grid-cols-1 ml-12 mt-2 mr-8 md:grid-cols-4 lg:grid-cols-4 gap-4 overflow-x-hidden ">
+            <div  className="grid grid-cols-1 ml-12 mt-2 mr-8 md:grid-cols-4 lg:grid-cols-4 gap-2 overflow-x-hidden ">
                 {
                     SearchedData?.length>0?SearchedData.map((pro)=>{
                         return(
