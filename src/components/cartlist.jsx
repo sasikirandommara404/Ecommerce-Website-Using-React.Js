@@ -128,7 +128,7 @@ export const Cart=()=>{
     return(
 
         <>
-            <div className='flex flex-row gap-4 ml-15'>
+            <div className='flex flex-row gap-4 ml-30'>
                 <div className="flex flex-col gap-4 item-center">
                     {
                         cart?.cart_items?.length>0?cart.cart_items.map((pro)=>{
